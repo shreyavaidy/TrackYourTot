@@ -1,0 +1,24 @@
+{
+  "name"        : "server_example",
+  "version"     : "0.1.6",
+  "author"      : "shreyavaidy@gmail.com",
+  "description" : "Simple EasyRTC server example which includes EasyRTC, Express, and Socket.io",
+
+  "private"     : true,
+
+  "scripts": {
+    "start"     : "node server.js"
+  },
+
+  "dependencies" : {
+    "easyrtc"   : "1.0.x",
+    "express"   : "*",
+    "socket.io" : "0.9.x"
+  },
+
+  "license"     : "BSD2",
+
+  "engines": {
+    "node"      : ">=0.8"
+  }
+}
